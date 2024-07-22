@@ -4,6 +4,7 @@ metadata:
   annotations:
     'quay.io/repository-slug': esapram/docker-node-app
     'backstage.io/kubernetes-id': test-app
+    'janus-idp.io/tekton': test-app
   name: test-backstage-application
   description: An example of a Backstage application.
 spec:
