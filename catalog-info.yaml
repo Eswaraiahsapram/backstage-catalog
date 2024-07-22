@@ -3,6 +3,7 @@ kind: Component
 metadata:
   annotations:
     'quay.io/repository-slug': esapram/docker-node-app
+    'backstage.io/kubernetes-id': test-app
   name: test-backstage-application
   description: An example of a Backstage application.
 spec:
