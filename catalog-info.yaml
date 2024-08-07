@@ -5,7 +5,8 @@ metadata:
     'quay.io/repository-slug': esapram/docker-node-app
     'backstage.io/kubernetes-id': test-app
     'janus-idp.io/tekton': test-app
-    'argocd/app-selector': rht-gitops.com/janus-argocd=quarkus-app-bootstrap
+    # 'argocd/app-selector': rht-gitops.com/janus-argocd=quarkus-app-bootstrap
+    'argocd/app-name': quarkus-app
   name: test-backstage-application
   description: An example of a Backstage application.
 spec:
