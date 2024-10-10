@@ -9,7 +9,7 @@ metadata:
     # 'argocd/app-name': quarkus-app
     'github.com/project-slug': 'Eswaraiahsapram/GHA-matrix-workflow'
     'jenkins.io/job-full-name': 'folder-name/project-name'
-  name: test-backstage-application
+  name: rhdh-app
   description: An example of a Backstage application.
 spec:
   type: service
