@@ -8,6 +8,7 @@ metadata:
     'argocd/app-selector': rht-gitops.com/janus-argocd=quarkus-app-bootstrap
     # 'argocd/app-name': quarkus-app
     'github.com/project-slug': 'Eswaraiahsapram/GHA-matrix-workflow'
+    'jenkins.io/job-full-name': 'folder-name/project-name'
   name: test-backstage-application
   description: An example of a Backstage application.
 spec:
