@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   annotations:
+    'backstage.io/techdocs-ref': dir:.
     'quay.io/repository-slug': esapram/docker-node-app
     'backstage.io/kubernetes-id': test-app
     'janus-idp.io/tekton': test-app
