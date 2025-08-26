@@ -13,6 +13,8 @@ metadata:
     'dev.azure.com/project-repo': my-project/my-repo
     'github.com/project-slug': redhat-developer/rhdh-plugins
     'jira.com/project-slug': RHIDP
+    'scorecard.io/github.open-prs.thresholds.rules.error': '>=200'
+    'scorecard.io/github.open-prs.thresholds.rules.warning': '<200'
   name: rhdh-app
   description: An example of a Backstage application.
 spec:
