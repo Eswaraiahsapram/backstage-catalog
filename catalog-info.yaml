@@ -15,7 +15,7 @@ metadata:
     'jira.com/project-slug': RHIDP
     # 'scorecard.io/github.open-prs.thresholds.rules.error': '>=200'
     # 'scorecard.io/github.open-prs.thresholds.rules.warning': '<200'
-  name: rhdh-app
+  name: rhdh-apps-test
   description: An example of a Backstage application.
 spec:
   type: service
