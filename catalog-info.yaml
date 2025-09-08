@@ -12,7 +12,8 @@ metadata:
     'jenkins.io/job-full-name': 'calculator-app-pipeline'
     'dev.azure.com/project-repo': my-project/my-repo
     'github.com/project-slug': redhat-developer/rhdh-plugins
-    'jira.com/project-slug': RHIDP
+    # 'jira.com/project-slug': RHIDP
+    'jira.com/project-key': RHIDP
     # 'scorecard.io/github.open-prs.thresholds.rules.error': '>=200'
     # 'scorecard.io/github.open-prs.thresholds.rules.warning': '<200'
   name: rhdh-apps-test
