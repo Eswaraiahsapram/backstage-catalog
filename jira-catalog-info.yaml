@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-website-invalid
+  annotations:
+    scorecard.io/jira.open-issues.thresholds.rules.warning: '10--15'
+spec:
+  type: website
+  lifecycle: experimental
+  owner: guests
+  system: examples
