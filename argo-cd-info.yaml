@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: quarkus-app  # Your application name
+  annotations:
+    argocd/instance-name: 'main'  # Matches your instance name from app-config (line 5)
+    argocd/app-namespace: argocd  # Namespace where ArgoCD app lives
+    argocd/app-name: quarkus-app  # ArgoCD Application name
+    # Needed for rollouts
+    backstage.io/kubernetes-id: quarkus-app-rollout  # Label selector for rollout
+    backstage.io/kubernetes-namespace: default  # Namespace where Rollout is deployed
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guests
+  system: examples
