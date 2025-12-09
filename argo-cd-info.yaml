@@ -8,7 +8,7 @@ metadata:
     argocd/app-name: quarkus-app  # ArgoCD Application name
     backstage.io/kubernetes-id: quarkus-app
     # Needed for rollouts
-    backstage.io/kubernetes-id: quarkus-app-rollout  # Label selector for rollout
+    # backstage.io/kubernetes-id: quarkus-app-rollout  # Label selector for rollout
     backstage.io/kubernetes-namespace: default  # Namespace where Rollout is deployed
 spec:
   type: service
