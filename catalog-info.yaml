@@ -1,6 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+  links:
+    - url: https://dashboard.example.com
+      title: My Dashboard
+      icon: dashboard
   annotations:
     'backstage.io/techdocs-ref': dir:.
     'quay.io/repository-slug': esapram/docker-node-app
