@@ -24,5 +24,4 @@ metadata:
   description: An example of a Backstage application.
 spec:
   type: service
-  owner: janus-authors
   lifecycle: production
