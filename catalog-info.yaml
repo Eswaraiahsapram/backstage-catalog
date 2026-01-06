@@ -1,4 +1,15 @@
 apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Eswaraiahsapram
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: esapram@redhat.com
+    displayName: Eswar S
+  memberOf: [temp-team-a]
+---
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   links:
@@ -15,8 +26,8 @@ metadata:
     # 'github.com/project-slug': 'Eswaraiahsapram/GHA-matrix-workflow'
     'jenkins.io/job-full-name': 'calculator-app-pipeline'
     'dev.azure.com/project-repo': my-project/my-repo
-    'github.com/project-slug': redhat-developer/rhdh-plugins
-    'jira.com/project-slug': RHIDP
+    'github.com/project-slug': redhat-developer/rhdh
+    'jira.com/project-slug': RHDHBUGS
     # 'jira/project-key': RHDHBUGS
     # 'scorecard.io/github.open-prs.thresholds.rules.error': '>=200'
     # 'scorecard.io/github.open-prs.thresholds.rules.warning': '<200'
@@ -24,5 +35,5 @@ metadata:
   description: An example of a Backstage application.
 spec:
   type: service
-  owner: janus-authors
-  lifecycle: production
+  owner: temp-team-a
+  lifecycle: unknown
