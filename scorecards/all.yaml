@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: ai-lab-all 
+  description: AI LAB Samples
+spec:
+  targets:
+    - ./all-scorecards.yaml
+    - ./github-scorecard-only.yaml
+    - ./jira-scorecard-only.yaml
