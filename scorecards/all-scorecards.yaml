@@ -8,7 +8,6 @@ metadata:
     github.com/project-slug: redhat-developer/rhdh-plugins
     backstage.io/source-location: url:https://github.com/redhat-developer/rhdh-plugins
     jira/project-key: RHIDP
-    scorecard.io/jira.open_issues.thresholds.rules.error: '>100d'
 spec:
   type: service
   owner: user:development/guest
