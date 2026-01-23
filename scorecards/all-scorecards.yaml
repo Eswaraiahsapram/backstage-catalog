@@ -3,7 +3,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: all-scorecards-service
+  name: all-scorecards-service-test1
   annotations:
     github.com/project-slug: redhat-developer/rhdh-plugins
     backstage.io/source-location: url:https://github.com/redhat-developer/rhdh-plugins
