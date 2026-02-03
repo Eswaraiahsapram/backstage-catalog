@@ -9,9 +9,11 @@ metadata:
     'backstage.io/techdocs-ref': dir:.
     'quay.io/repository-slug': esapram/docker-node-app
     'backstage.io/kubernetes-id': quarkus-app
+    'backstage.io/kubernetes-namespace': openshift-gitops
+    'argocd/instance-name': main
     'janus-idp.io/tekton': test-app
-    # 'argocd/app-selector': rht-gitops.com/janus-argocd=quarkus-app-bootstrap
-    'argocd/app-selector': app.kubernetes.io/instance=quarkus-app
+    'argocd/app-selector': rht-gitops.com/janus-argocd=quarkus-app-bootstrap
+    # 'argocd/app-selector': app.kubernetes.io/instance=quarkus-app
     # 'argocd/app-name': quarkus-app
     # 'github.com/project-slug': 'Eswaraiahsapram/GHA-matrix-workflow'
     'jenkins.io/job-full-name': 'calculator-app-pipeline'
