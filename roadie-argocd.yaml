@@ -1,22 +1,24 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+  name: rhdh-apps-test
+  description: An example of a Backstage application.
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    quay.io/repository-slug: esapram/docker-node-app
+    backstage.io/kubernetes-id: quarkus-app
+    backstage.io/kubernetes-namespace: openshift-gitops
+
+    # 🔑 Roadie ArgoCD annotations
+    argocd/app-name: guestbook
+    argocd/instance-name: local-argocd
+
+    janus-idp.io/tekton: test-app
+
   links:
     - url: https://dashboard.example.com
       title: My Dashboard
       icon: dashboard
-  annotations:
-    'backstage.io/techdocs-ref': dir:.
-    'quay.io/repository-slug': esapram/docker-node-app
-    'backstage.io/kubernetes-id': quarkus-app
-    'backstage.io/kubernetes-namespace': openshift-gitops
-    'argocd/instance-name': main
-    'janus-idp.io/tekton': test-app
-    # 'argocd/app-selector': rht-gitops.com/janus-argocd=quarkus-app-bootstrap
-    # 'argocd/app-selector': app.kubernetes.io/instance=quarkus-app
-    'argocd/app-name': guestbook
-  name: rhdh-apps-test
-  description: An example of a Backstage application.
 spec:
   type: service
   owner: temp-team-a
